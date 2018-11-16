@@ -194,11 +194,10 @@ section #contactme {
 .nojs {
   border-top: 20px solid red;
 }
-
-.js #graduation, .js video, .js #videocaption, .js #action, .js #focus {
+.js #action {
   display: none;
 }
-.js #graduation.visible, .js video.visible, .js #videocaption.visible, .js #action.visible, .js #focus.visible {
+.js #action.visible {
   display: block;
 }
 /* State style (media queries) */
