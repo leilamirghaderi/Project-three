@@ -60,6 +60,13 @@ article {
 #navigation {
   grid-column: 2/2;
   grid-row: 1;
+  display: inline-grid;
+  font-weight: bold;
+  font-size: 1em; /*16px /*16 = 1em */
+  line-height: 1.25em; /* 20px /  16px= 1.25em*/
+  background-color: #595959;
+  border-radius: 2%;
+  color: #ffffff;
 }
 #content {
   display: grid;
@@ -97,47 +104,16 @@ article {
   color: #ffffff;
   padding: 2%;
 }
-#primary a {
-  padding-bottom: 0.625em;
-  color: #ffffff;
-}
-#contact a, #experience h2, #interest h2 {
-  color: #ffffff;
-}
-#heading h2{
-  color: #000000;
-}
-#graduation {
-  display: block;
-  padding-top: 0.937em;
-  margin: 0 auto;
-  max-width: 100%;
-}
-#navigation {
-  display: inline-grid;
-  font-weight: bold;
-  font-size: 1em; /*16px /*16 = 1em */
-  line-height: 1.25em; /* 20px /  16px= 1.25em*/
-  background-color: #595959;
-  border-radius: 2%;
-  color: #ffffff;
-}
-
-nav a{
+nav a {
   padding: 1.2em 0;
   margin: 3.5%;
   background: #DAA520;
   border: 1px solid #999999;
-  border-radius: .5em;
+  border-radius: 0.5em;
   color: #ffffff;
   display: block;
   text-align: center;
   text-decoration: none;
-}
-nav li {
-  flex: 1 1 auto;
-  width: 100%;
-  float: left;
 }
 #about #nav-abo,
 #experience #nav-exp,
@@ -147,6 +123,27 @@ nav a:active,
 nav a:focus {
   background: #999999;
   color: #ffffff;
+}
+#primary a {
+  padding-bottom: 0.625em;
+  color: #ffffff;
+}
+#contact a, #experience h2, #interest h2 {
+  color: #ffffff;
+}
+#heading h2 {
+  color: #000000;
+}
+#graduation {
+  display: block;
+  padding-top: 0.937em;
+  margin: 0 auto;
+  max-width: 100%;
+}
+nav li {
+  flex: 1 1 auto;
+  width: 100%;
+  float: left;
 }
 img {
   display: block;
@@ -160,39 +157,38 @@ img {
   line-height: 1.07em;
   text-align: center;
 }
-input[type=text], select, textarea {
+input[type="text"], select, textarea {
   width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  padding: 0.75em;
+  border: 0.0625em solid #ccc;
+  border-radius: 0.25em;
   box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
+  margin-top: 0.375em;
+  margin-bottom: 1em;
   resize: vertical;
 }
-
-input[type=submit] {
+input[type="submit"] {
   background-color: #DAA520;
   color: #ffffff;
-  padding: 12px 20px;
+  padding: 0.75em 1.25em;
   border: none;
-  border-radius: 4px;
+  border-radius: 0.25em;
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #DAA520;
 }
 
 section #contactme {
-  border-radius: 5px;
+  border-radius: 0.3125em;
   background-color: #f2f2f2;
-  padding: 20px;
+  padding: 1.25em;
 }
 /* State Styles */
 
 .nojs {
-  border-top: 20px solid red;
+  border-top: 1.25em solid red;
 }
 .js #action {
   display: none;
