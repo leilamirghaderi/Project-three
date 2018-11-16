@@ -18,11 +18,11 @@
     // And then add the .js class to <html>:
     html_tag.classList.add('js');
     var heading_label = 'Read More...';
-    var heading = document.querySelector('figure');
+    var heading = document.querySelector('#read');
     heading.innerHTML = '<a href="#khan">'+heading_label+'</a>';
     heading.addEventListener('click',function(){
       var content = document.querySelector('#graduation, figcaption, video, #videocaption, #action, #focus');
-      var label = document.querySelector('figure a');
+      var label = document.querySelector('#read a');
 
       content.classList.toggle('visible');
 
