@@ -161,6 +161,12 @@ img {
   line-height: 1.07em;
   text-align: center;
 }
+#link-gmail {
+  margin: 2%;
+}
+#link-github {
+  margin-top: 2%;
+}
 /* State Styles */
 
 .nojs {
