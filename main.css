@@ -157,38 +157,10 @@ img {
   line-height: 1.07em;
   text-align: center;
 }
-input[type="text"], select, textarea {
-  width: 100%;
-  padding: 0.75em;
-  border: 0.0625em solid #ccc;
-  border-radius: 0.25em;
-  box-sizing: border-box;
-  margin-top: 0.375em;
-  margin-bottom: 1em;
-  resize: vertical;
-}
-input[type="submit"] {
-  background-color: #DAA520;
-  color: #ffffff;
-  padding: 0.75em 1.25em;
-  border: none;
-  border-radius: 0.25em;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: #DAA520;
-}
-
-section #contactme {
-  border-radius: 0.3125em;
-  background-color: #f2f2f2;
-  padding: 1.25em;
-}
 /* State Styles */
 
 .nojs {
-  border-top: 1.25em solid red;
+  border-top: 20px solid red;
 }
 .js #action {
   display: none;
