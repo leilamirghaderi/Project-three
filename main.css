@@ -12,7 +12,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   background-color: #ffffff;
   color: #000000;
-  font-family: "Helvetica Neue", Helvetica , Arial, sans-serif;
+  font-family: "Black Han Sans", Helvetica , Arial, sans-serif;
   margin: 1%;
 }
 figcaption {
@@ -21,6 +21,8 @@ figcaption {
   text-align: center;
 }
 h2 {
+  font-family: "Acme", Helvetica , Arial, sans-serif;
+  font-size: 1.4em;
   font-size: 1.75em; /*28px /*16 = 1.75emx */
   line-height: 1.28em; /* 36px /  28px= 1.28em*/
 }
