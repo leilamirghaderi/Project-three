@@ -192,7 +192,7 @@ img {
     height: 220px;
     }
     #heading h2 {
-        font-size: 1.9em;
+        font-size: 2em;
         padding-left: 6%;
         padding-bottom: 0.1em;
       }
@@ -208,7 +208,7 @@ img {
   }
   header article{
     display: flex;
-    flex-flow: row-reverse;
+    flex-flow: column-reverse;
   }
   #heading img {
     display: block;
