@@ -134,6 +134,10 @@ nav a:focus {
 #heading h2 {
   color: #000000;
 }
+#primary aside {
+  display: flex;
+  flex: 2;
+}
 #graduation {
   display: block;
   padding-top: 0.937em;
