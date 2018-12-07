@@ -182,7 +182,33 @@ img {
 }
 /* State style (media queries) */
 
+@media screen and (min-width: 120px) {
+  html {
+    font-size: 0.85em; /*21px /*16 = 1.31em */
+    line-height: 1.38em; /*29px /*21 = 1.38em */
+  }
+  body #header {
+    display: flex;
+    flex-flow: column;
+  }
+}
+@media screen and (min-width: 200px) {
+  body #header {
+    display: grid;
+  }
+  #header article {
+    display: flex;
+    flex-flow: column;
+  }
+}
 @media screen and (min-width: 490px) {
+  html {
+    font-size: 1.31em; /*21px /*16 = 1.31em */
+    line-height: 1.38em; /*29px /*21 = 1.38em */
+  }
+  body #header {
+    display: grid;
+  }
   nav a {
     padding: 1.45em 0;
     margin: 2.5%;
