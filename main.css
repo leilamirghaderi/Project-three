@@ -10,9 +10,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Base style elements */
 html {
+  font-family: "Black Han Sans", Helvetica , Arial, sans-serif;
   background-color: #ffffff;
   color: #000000;
-  font-family: "Black Han Sans", Helvetica , Arial, sans-serif;
   margin: 1%;
 }
 figcaption {
@@ -21,9 +21,10 @@ figcaption {
   text-align: center;
 }
 h2 {
-  font-family: "Acme", Helvetica , Arial, sans-serif;
+  font-family: "Open Sans", Helvetica , Arial, sans-serif;
   font-size: 1.4em;
   line-height: 1.28em; /* 36px /  28px= 1.28em*/
+  font-weight: bold;
 }
 p {
   font-size: 1.125em; /*18px /*16 = 1.125em */
@@ -133,7 +134,7 @@ nav a:focus {
   color: #ffffff;
 }
 #heading h2 {
-  color: #000000;
+  color: #ffffff;
 }
 #primary aside {
   display: flex;
@@ -171,7 +172,7 @@ img {
 /* State Styles */
 
 .nojs {
-  border-top: 20px solid red;
+  border-top: 1.25em solid red;
 }
 .js #action {
   display: none;
@@ -182,25 +183,25 @@ img {
 /* State style (media queries) */
 
 @media screen and (min-width: 490px) {
+  nav a {
+    padding: 1.45em 0;
+    margin: 2.5%;
+  }
   #navigation a {
     line-height: 1.75em; /*28px /*16 = 1.75em */
   }
-  #header article{
+  #header article {
     display: flex;
     flex-flow: column-reverse;
   }
   #main article {
     display: flex;
-      flex: 0 1;
+    flex: 0 1;
   }
-    #heading h2 {
-        font-size: 2em;
-        padding-left: 6%;
-        padding-bottom: 0.1em;
-      }
-      nav a {
-    padding: 1.45em 0;
-    margin: 2.5%;
+  #heading h2 {
+    font-size: 2em;
+    padding-left: 6%;
+    padding-bottom: 0.1em;
   }
 }
 @media screen and (min-width: 648px) {
@@ -208,18 +209,18 @@ img {
     font-size: 1.31em; /*21px /*16 = 1.31em */
     line-height: 1.38em; /*29px /*21 = 1.38em */
   }
-  #header article{
+  #header article {
     display: flex;
     flex-flow: row-reverse;
   }
   #main article {
     display: flex;
-      flex: 0 1;
+    flex: 0 1;
   }
-    #heading h2 {
-        font-size: 1.5em;
-      }
-      nav a {
+  #heading h2 {
+    font-size: 1.5em;
+  }
+  nav a {
     padding: 0.1em 0;
     margin: 0.5%;
   }
@@ -245,37 +246,34 @@ img {
     line-height: 1.07em; /*28px /*26 = 1.07em */
   }
   #heading h2 {
-      font-size: 1.2em;
-    }
-    nav a {
-  padding: 0.2em 0;
-  margin: 0.3%;
-}
+    font-size: 1.2em;
+  }
+  nav a {
+    padding: 0.2em 0;
+    margin: 0.3%;
+  }
 }
 @media screen and (min-width: 920px) {
   html {
     font-size: 1.626em; /*26px /*16 = 1.625em */
     line-height: 1.07em; /*28px /*26 = 1.07em */
   }
-    #heading h2 {
-        font-size: 1.9em;
-      }
-      nav a {
+  nav a {
     padding: 0.2em 0;
     margin: 0.5%;
   }
   #heading h2 {
-    font-size: 1.5em;
+    font-size: 1.4em;
     padding-left: 0.4em;
-    padding-top: 0.1em;
+    padding-top: 0.2em;
   }
-  #header article{
+  #header article {
     display: flex;
     flex-flow: row-reverse;
   }
   #main article {
     display: flex;
-      flex: 0 1;
+    flex: 0 1;
   }
   #navigation a {
     font-size: 1.37em; /*22px /*16 = 1.37em */
@@ -283,43 +281,43 @@ img {
   }
 }
 @media screen and (min-width: 1052px) {
-    #heading h2 {
-      font-size: 2em;
-      padding-left: 0.4em;
-      padding-top: 0.1em;
-    }
-    #header article{
-      display: flex;
-      flex-flow: row-reverse;
-    }
-    #main article {
-      display: flex;
-        flex: 0 1;
-}
-  nav a{
-      padding: 0.15em 0;
-      margin: 0.3%;
-    }
+  #heading h2 {
+    font-size: 2em;
+    padding-left: 0.4em;
+    padding-top: 0.1em;
   }
+  #header article {
+    display: flex;
+    flex-flow: row-reverse;
+  }
+  #main article {
+    display: flex;
+    flex: 0 1;
+  }
+  nav a {
+    padding: 0.15em 0;
+    margin: 0.3%;
+  }
+}
 @media screen and (min-width: 1200px) {
   #heading img {
     padding-top: 0.5em;
-    }
-    #heading h2 {
-      font-size: 2.3em;
-      padding-left: 0.4em;
-      padding-top: 0.1em;
-    }
-    #header article{
-      display: flex;
-      flex-flow: row-reverse;
-    }
-    #main article {
-      display: flex;
-        flex: 0 1;
-    }
-    nav a{
-        padding: 0.3em 0;
-        margin: 0.2%;
-      }
+  }
+  #heading h2 {
+    font-size: 2.3em;
+    padding-left: 0.4em;
+    padding-top: 0.1em;
+  }
+  #header article {
+    display: flex;
+    flex-flow: row-reverse;
+  }
+  #main article {
+    display: flex;
+    flex: 0 1;
+  }
+  nav a {
+    padding: 0.3em 0;
+    margin: 0.2%;
+  }
 }
